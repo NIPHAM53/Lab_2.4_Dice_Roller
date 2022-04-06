@@ -30,6 +30,8 @@ public class Dice_Roller {
 			}
 
 		} while (choice.equalsIgnoreCase("y"));
-		System.out.println("Thank you for playing! See you next time");
+		// need to fix loop issue
+		// after a few rounds it no longer ask if you want to roll again
+		//loops the dice game without prompting users to end the game.
 	}
 }
